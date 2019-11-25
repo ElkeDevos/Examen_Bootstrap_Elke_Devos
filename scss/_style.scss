@@ -1,0 +1,233 @@
+body{
+}
+#brandTekst{
+  font-size: 24px;
+  font-weight: bold;
+}
+#navigatie{
+  background: #282a2e;
+}
+.bg-white{
+  background-color: transparent !important;
+  height: 100%;
+}
+.kleurWit{
+color: white !important;
+  font-weight: bold;
+  font-size: 16px;
+}
+.hov:hover{
+  color: #97c248 !important;
+}
+//EINDE NAV
+//BEGIN HEADER
+.carousel-caption{
+margin-bottom: 260px;
+}
+.hoofdtekstslider{
+  font-size: 30px;
+  color: white !important;
+}
+.bodytekstslider{
+  font-size:20px;
+  color: white!important;
+}
+#sliderMobile{
+  background-image: url("../image/carousel.png");
+  height: 100%;
+}
+//EINDE HEADER
+//BEGIN MAIN
+//SERVICES
+#services{
+  background: #282a2e;
+}
+.wit{
+  color: white;
+}
+#services h2{
+  font-size: 36px;
+}
+#services img{
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  outline: 10px solid #313338;
+  -moz-outline-radius: 50%;
+
+}
+#services p{
+  font-weight: lighter;
+}
+//THEME
+#theme{
+  background: #4b3f34;
+}
+.themeLetters{
+  font-size: 36px;
+  color: white;
+  font-weight: lighter;
+}
+#purchaise{
+  background: #b0cd3b;
+  box-shadow: gray;
+  border: #b0cd3b;
+  color: white;
+  border-radius: 5px;
+  font-weight: lighter;
+  width: 130px;
+}
+#follow{
+  background: #1bbc9d;
+  width: 130px;
+  box-shadow: gray;
+  border: #1bbc9d;
+  color: white;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+//PORTFOLIO
+#portfolio{
+  background: #282a2e;
+  height: 980px;
+}
+.nav-pills{
+  background: #313338;
+  list-style: none;
+}
+.nav-pills .nav-link.active{
+  background: none;
+}
+.nav-pills .nav-link:hover{
+  background:#1bbc9d ;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item{
+  list-style: none;
+}
+.binnenkant{
+  height: 90px;
+  width: 90px;
+  background: #232323;
+  outline: 10px solid #313337;
+}
+.f-18{
+  font-size: 10px;
+}
+.f-14{
+  font-size: 8px;
+}
+/** MEDIA QUERIES **/
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+      body{
+      }
+      #brandTekst{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      #navigatie{
+        background: #282a2e;
+      }
+      .bg-white{
+        background-color: transparent !important;
+        height: 112px;
+      }
+      .kleurWit{
+        color: white !important;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .kleurGroen{
+        color: #97c248 !important;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      //BEGIN HEADER
+      .carousel-caption{
+        margin-bottom: 260px;
+      }
+      .hoofdtekstslider{
+        font-size: 60px;
+        line-height: 50px;
+      }
+      .bodytekstslider{
+        font-size:40px;
+      }
+    //BEGIN MAIN
+    //SERVICES
+    #services{
+      background: #282a2e;
+    }
+    .wit{
+      color: white;
+    }
+    #services h2{
+      font-size: 36px;
+    }
+    #services img{
+      margin: auto;
+      height: 30px;
+      width: 30px;
+      outline: 50px solid #313338;
+    }
+    #services p{
+      font-weight: lighter;
+    }
+    //THEME
+    #theme{
+      background: #4b3f34;
+    }
+    .themeLetters{
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+    }
+    #purchaise{
+      background: #b0cd3b;
+      box-shadow: gray;
+      border: #b0cd3b;
+      color: white;
+      border-radius: 5px;
+      font-weight: lighter;
+      width: 130px;
+    }
+    #follow{
+      background: #1bbc9d;
+      width: 130px;
+      box-shadow: gray;
+      border: #1bbc9d;
+      color: white;
+      border-radius: 5px;
+      font-weight: lighter;
+    }
+    //PORTFOLIO
+    #portfolio{
+      background: #282a2e;
+      height: 980px;
+    }
+    .nav-pills{
+      background: #313338;
+    }
+    .binnenkant{
+      height: 170px;
+      width: 170px;
+      background: #232323;
+      outline: 30px solid #313337;
+    }
+    .f-18{
+      font-size: 18px;
+    }
+    .f-14{
+      font-size: 14px;
+    }
+
+
+    }
+
+
+
+
+
